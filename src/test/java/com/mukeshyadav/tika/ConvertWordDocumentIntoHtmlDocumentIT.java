@@ -1,4 +1,4 @@
-package com.mukeshyadav;
+package com.mukeshyadav.tika;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.context.WebApplicationContext;

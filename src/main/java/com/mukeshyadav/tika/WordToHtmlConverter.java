@@ -1,4 +1,4 @@
-package com.mukeshyadav;
+package com.mukeshyadav.tika;
 
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.metadata.Metadata;

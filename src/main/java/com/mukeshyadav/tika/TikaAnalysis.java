@@ -1,4 +1,4 @@
-package com.mukeshyadav;
+package com.mukeshyadav.tika;
 
 import java.io.IOException;
 import java.io.InputStream;

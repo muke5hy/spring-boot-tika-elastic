@@ -1,4 +1,4 @@
-package com.mukeshyadav;
+package com.mukeshyadav.tika;
 
 import org.springframework.http.MediaType;
 

@@ -1,4 +1,4 @@
-package com.mukeshyadav;
+package com.mukeshyadav.tika;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
  *  This controller provides the public API that is used to transform Word documents
  *  into HTML documents.
  *
- *  @author Petri Kainulainen
+ *  @author @author Mukesh Yadav
  */
 @RestController
 final class WordToHtmlController {

@@ -1,4 +1,4 @@
-package com.mukeshyadav;
+package com.mukeshyadav.tika;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * This is is a simple configuration class and enables the auto configuration support
  * of Spring Boot and starts the example application.
  *
- * @author Petri Kainulainen
+ * @author Mukesh Yadav
  */
 @Configuration
 @EnableAutoConfiguration
