@@ -1,5 +1,12 @@
 plugins {
     id 'java'
+    id 'com.gradle.build-scan' version '2.0.2'
+    id 'org.springframework.boot' version '2.0.5.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.7.RELEASE'
+}
+
+ext {
+    springBootVersion = "2.0.5.RELEASE"
 }
 
 group 'elastic-tika'
@@ -11,8 +18,21 @@ repositories {
     mavenCentral()
 }
 
+
+description = """MutualFund Transaction"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
 dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version:springBootVersion
     compile "org.apache.tika:tika-parsers:1.17"
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
+}
+
+bootRun {
+    environment SPRING_PROFILES_ACTIVE: environment.SPRING_PROFILES_ACTIVE ?: "local"
 }
